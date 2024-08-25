@@ -25,10 +25,10 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-OWNER_ID = environ.get('OWNER_ID', '6497757690')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID', '20718334'))
+API_HASH = environ.get('API_HASH', '4e81464b29d79c58d0ad8a0c55ece4a5')
+OWNER_ID = environ.get('OWNER_ID', '5585016974')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7436567389:AAEDUFqzZwhjTk2hWXdVXRyuMfQ6EyO3fsI")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -45,7 +45,7 @@ REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/1c1a3cb814cd719a
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'shareus.io'))
 STREAM_API = (environ.get('STREAM_API', ''))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/How_to_Download_7x/32'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/tutorial_society'))
 
 # Command
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
