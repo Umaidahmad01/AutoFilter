@@ -12,8 +12,8 @@ from pyrogram.types import User, Message, Sticker, Document
     
 bughunter0 = Client(
     "Sticker-Bot",
-    bot_token = os.environ,
-    api_id = int(os.environ),
+    bot_token = os.environ
+    api_id = int(os.environ)
     api_hash = os.environ
 )
 
