@@ -10,7 +10,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.types import User, Message, Sticker, Document
 
     
-bughunter0 = Client(
+bughunter0 = Client
     "Sticker-Bot",
     bot_token = os.environ
     api_id = int(os.environ
