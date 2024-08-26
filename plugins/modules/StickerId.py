@@ -15,7 +15,7 @@ bughunter0 = Client
     bot_token = os.environ
     api_id = int(os.environ
     api_hash = os.environ
-)
+
 
 START_STRING = """ Hi {}, I'm Sticker Bot. 
 
