@@ -1,5 +1,4 @@
 # credit @codeflix_bots
-VERIFIED_LOG_TEXT.format(m.from_user.mention
 import os
 import logging
 import random
